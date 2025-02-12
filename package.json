@@ -1,0 +1,56 @@
+{
+	"name": "admin-vue3-vite",
+	"private": true,
+	"version": "1.0.1",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "vue-tsc -b && vite build",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"@sa/axios": "workspace:*",
+		"@sa/utils": "workspace:*",
+		"dayjs": "1.11.13",
+		"element-plus": "2.8.7",
+		"pinia": "2.2.6",
+		"vue": "3.5.13"
+	},
+	"devDependencies": {
+		"@eslint/js": "9.20.0",
+		"@types/node": "22.9.0",
+		"@typescript-eslint/eslint-plugin": "7.18.0",
+		"@typescript-eslint/parser": "7.18.0",
+		"@vitejs/plugin-vue": "5.2.1",
+		"@vitejs/plugin-vue-jsx": "4.1.0",
+		"@vue/tsconfig": "0.7.0",
+		"eslint": "9.14.0",
+		"eslint-plugin-vue": "9.31.0",
+		"globals": "15.15.0",
+		"lint-staged": "15.2.10",
+		"prettier": "3.5.1",
+		"sass": "1.83.0",
+		"stylelint": "16.14.1",
+		"stylelint-config-prettier": "9.0.5",
+		"stylelint-config-standard": "37.0.0",
+		"stylelint-declaration-block-no-ignored-properties": "2.8.0",
+		"tsx": "4.19.2",
+		"typescript": "5.7.2",
+		"typescript-eslint": "8.24.0",
+		"unplugin-icons": "0.20.1",
+		"vite": "5.4.11",
+		"vite-plugin-eslint": "1.8.1",
+		"vite-plugin-progress": "0.0.7",
+		"vite-plugin-svg-icons": "2.0.1",
+		"vite-plugin-vue-devtools": "7.6.4",
+		"vue-eslint-parser": "9.4.3",
+		"vue-tsc": "2.1.10"
+	},
+	"simple-git-hooks": {
+		"commit-msg": "pnpm sa git-commit-verify",
+		"pre-commit": "pnpm typecheck && pnpm lint-staged"
+	},
+	"lint-staged": {
+		"*": "eslint --fix"
+	}
+}
