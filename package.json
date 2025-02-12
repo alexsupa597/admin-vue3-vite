@@ -1,0 +1,43 @@
+{
+  "name": "admin-vue3-vite",
+  "private": true,
+  "version": "1.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "format": "prettier . --write"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "2.3.1",
+    "@vueuse/core": "12.7.0",
+    "dayjs": "1.11.13",
+    "element-plus": "2.8.7",
+    "pinia": "2.2.6",
+    "vue": "3.5.13",
+    "vue-router": "4.5.0"
+  },
+  "devDependencies": {
+    "@elegant-router/vue": "0.3.8",
+    "@element-plus/nuxt": "1.1.1",
+    "@types/node": "22.9.0",
+    "@vitejs/plugin-vue": "5.2.1",
+    "@vitejs/plugin-vue-jsx": "4.1.0",
+    "@vue/tsconfig": "0.7.0",
+    "globals": "15.15.0",
+    "prettier": "3.5.1",
+    "sass": "1.83.0",
+    "tsx": "4.19.2",
+    "typescript": "5.7.2",
+    "unplugin-auto-import": "^19.1.1",
+    "unplugin-icons": "0.20.1",
+    "unplugin-vue-components": "28.4.1",
+    "vite": "5.4.11",
+    "vite-plugin-progress": "0.0.7",
+    "vite-plugin-svg-icons": "2.0.1",
+    "vite-plugin-vue-devtools": "7.6.4",
+    "vue-i18n": "11.1.1",
+    "vue-tsc": "2.1.10"
+  }
+}
