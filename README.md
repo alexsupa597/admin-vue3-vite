@@ -10,9 +10,6 @@
 - 通用的基础工具函数，比如：日期格式化，金额格式化，上传，下载，二维码...等等
 - 通用的基础 hooks，比如：useRequest，useTable，useForm...等等
 - 通用的基础配置，比如：路由，菜单，权限...等等
-- eslint\prettier\husky
-
-待开发（router, authRouter, layout），会持续增加;
 
 ## 使用
 
@@ -24,19 +21,12 @@
 - **NodeJS**: >=18.12.0，推荐 18.19.0 或更高。
 - **pnpm**: >= 8.7.0，推荐 8.14.0 或更高。
 
-**克隆项目**
-
-```bash
-git clone https://github.com/alexsupa597/admin-vue3-vite.git
-```
 
 **安装依赖**
 
 ```bash
 pnpm i
 ```
-
-> 由于本项目采用了 pnpm monorepo 的管理方式，因此请不要使用 npm 或 yarn 来安装依赖。
 
 **启动项目**
 
@@ -49,10 +39,6 @@ pnpm dev
 ```bash
 pnpm build
 ```
-
-## 如何贡献
-
-我们热烈欢迎并感谢所有形式的贡献。欢迎通过提交 [pull requests](https://github.com/alexsupa597/admin-vue3-vite/pulls) 或创建 GitHub [issue](https://github.com/alexsupa597/admin-vue3-vite/issues) 来分享。特别鸣谢开源作者：soybean
 
 ## Git 提交规范
 
